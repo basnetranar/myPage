@@ -2,12 +2,16 @@
   "name": "RanarBasnet",
   "version": "1.0.0",
   "description": "MyPersonal Website",
-  "main": "app.js",
-  "dependencies": {},
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "http": "0.0.0",
+    "http-server": "^0.11.1"
+  },
   "devDependencies": {},
   "scripts": {
-    "prestart": "npm install",
-    "start": "http-server -a localhost -p 8000 -c-1"
+    // "prestart": "npm install",
+    "start": "node server.js"
   },
   "keywords": [
     "Ranar Basnet",
